@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    background-color: rgb(237, 102, 102);
+    font: 1em white ;
+    margin: 0%;
+    justify-content: center;
+}
+
+.header .i::after{
+    content: icon;
+    
+}

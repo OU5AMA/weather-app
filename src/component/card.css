@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    height: 310px;
+    width: 500px;
+    margin: 40px;
+    position: relative;
+}
+
+
+.card .left-side{
+    height: 100%;
+    width: 45%;
+}
+
+
+.card .left-side img{
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    object-fit:contain;
+}
+
+.card .right-side{
+    height: 100%;
+    width: 55%;
+    display: block;
+    overflow: auto;
+    background-color: whitesmoke;
+    padding: 8px;
+    margin: 0%;
+
+}
+
+.card .right-side .date{
+    font-style: italic;
+}
+
+.card .right-side .text{
+    text-align: left;
+    text-indent: 40px;
+    font-weight: 600;
+}
